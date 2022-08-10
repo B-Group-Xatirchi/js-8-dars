@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B Group | css 8-dars</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <style>
+    .next, .alert {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-dark text-white">
+  <div class="container">
+    <h1 class="my-5">Yozuv matni</h1>
+
+    <div>
+      <div class="my-3">
+        <input type="text" id="myInput">
+      </div>
+      <button class="btn btn-success start" onclick="start()">Boshlash</button>
+      <button class="btn btn-warning next" onclick="next()">Keyingi</button>
+    </div>
+
+    <div class="alert mt-4 folse" style="background: #851522;">0</div>
+    <div class="alert mt-4 true" style="background: #005942;">0</div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
